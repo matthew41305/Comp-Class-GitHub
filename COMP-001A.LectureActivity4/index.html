@@ -1,142 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Data table Activity</title>
+    <title>Content Blocks</title>
 </head>
-
-
 <body>
-
     <header>
         <nav>
             <ul>
-                <!-- unordered list for the following, home tables, forms, and media-->
-                <li><a href="home.html">Home</a></li>
-                <li><a href="tables.html">Tables</a></li>
-                <li><a href="forms.html">Forms</a></li>
-                <li><a href="media.html">Media</a></li>
-                <h1></h1>
+                <li><a href="Home">Home</a></li>
+                <li><a href="Tables">Tables</a></li>
+                <li><a href="Forms">Forms</a></li>
+                <li><a href="Media">Media</a></li>
             </ul>
-            <h1>Media Page</h1>
-
+            <h1>Blocks</h1>
         </nav>
     </header>
-
     <main>
-        <!--div container for building tables with fixed size-->
-        <div id="table1">
-            <!--table with fixed size-->
-            <table style="width: 1000px">
-                <caption>Table with absolute width values</h2>
-                <!--table header-->
-                <thead>
-                    <!--Table row for header-->
-                    <tr>
-                        <th>Header 1</th>
-                        <th>Header 2</th>
-                    </tr>
-                </thead>
-                <!--table body-->
-                <tbody>
-                    <!-- table row for body-->
-                     <tr>
-                        <!--table data cell-->
-                        <td>Data 1.1</td>
-                        <td>Data 1.2</td>
-                     </tr>
-                     <tr>
-                        <td>Data 2.1</td>
-                        <td>Data 2.2</td>
-                     </tr>
-                     <tr>
-                        <td>Data 3.1</td>
-                        <td>Data 3.2</td>
-                     </tr>
+        <!-- secondary menu links-->
+        <ul>
+            <!--link to 'introduction' section-->
+            <li><a href="#Intro">Introduction</a></li>
+                <!-- link to 'content' section-->
+                <li><a href="#Content">Content</a></li>
+                <!-- link to 'conclusion section'-->
+                <li><a href="#Conclusion">Conslusion</a></li>
+        </ul>
 
-                </tbody>
-            </table>
-        </div>
-        <hr>
-        <!--Div container for building responsive tables-->
-        <div id="table2">
-            <table style="width: 100%">
-                <h2>Responsive table using relative width values</h2>
-                <!--Table header-->
-                <thead>
-                    <!-- Table row for the header-->
-                     <tr>
-                        <th>Header 1</th>
-                        <th>Header 2</th>
-                     </tr>
-                </thead>
-                <!-- Table body -->
-                 <tbody>
-                    <!-- Table row for the body-->
-                     <tr>
-                        <!--Table data cell-->
-                        <td>Data 1.1</td>
-                        <td>Data 1.2</td>
-                     </tr>
-                     <tr>
-                        <td>Data 2.1</td>
-                        <td>Data 2.2</td>
-                     </tr>
-                     <tr>
-                        <td>Data 3.1</td>
-                        <td>Data 3.2</td>
-                     </tr>
-                 </tbody>
-            </table>
-        </div>
-        <hr>
+        <section id="intro">
+            <h2>Introduction</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat interdum malesuada. Donec varius vehicula sapien, ut fermentum felis scelerisque non.</p>
+            <p>Curabitur vulputate, ligula a cursus gravida, odio ex blandit felis, et imperdiet eros leo eget justo. Cras auctor magna vel leo ultrices, ut auctor felis vehicula.</p>
+            <p>Pellentesque at lacus non ipsum fermentum ultricies. Aenean sit amet turpis a turpis tempor cursus et ut est. Integer auctor magna in ligula interdum, nec cursus est scelerisque.</p>
+            <p>Vestibulum consectetur velit vel ante bibendum interdum. Praesent a lacus lacinia, sollicitudin libero id, malesuada libero. Mauris gravida felis id ex congue, et malesuada libero cursus.</p>
+            <p>Donec malesuada felis vel est egestas varius. Duis convallis risus ut mauris tincidunt, ac cursus magna dictum. Phasellus euismod massa at augue volutpat, eget fringilla est venenatis.</p>
+        </section>
 
-        <!--Div container for building a responsive tables with merged cells-->
-        <div id="table3">
-            <!-- Responsive table with merged cells-->
-             <table style="width: 100%">
-                <h2>Responsive table with merged cells</h2>
-                <!--Table header-->
-                <thead>
-                    <!--Table row for the header-->
-                    <tr>
-                        <th rowspan="2">Header 1</th> <!--Header cell that spans two rows vertically-->
-                        <th rowspan="3">Header 2</th> <!--Header cell that spans two columns horizontally-->
-                    </tr>
-                    <tr>
-                        <th>Sub-header 1</th>
-                        <th>Sub-header 2</th>
-                    </tr>
-                </thead>
-                <!--Table body-->
-                <tbody>
-                    <tr>
-                        <!-- Table data cell-->
-                         <td>Data 1.1</td>
-                         <td>Data 1.2</td>
-                         <td>Data 1.3</td>
-                    </tr>
-                    <tr>
-                        <td>Data 2.1</td>
-                        <td>Data 2.2</td>
-                        <td>Data 2.3</td>
-                    </tr>
-                    <tr>
-                        <td>Data 3.1</td>
-                        <td>Data 3.2</td>
-                        <td>Data 3.3</td>
-                    </tr>
-                </tbody>
-             </table>
-        </div>
+        <section id="content">
+            <h2>Content</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat interdum malesuada. Donec varius vehicula sapien, ut fermentum felis scelerisque non.</p>
+            <p>Curabitur vulputate, ligula a cursus gravida, odio ex blandit felis, et imperdiet eros leo eget justo. Cras auctor magna vel leo ultrices, ut auctor felis vehicula.</p>
+            <p>Pellentesque at lacus non ipsum fermentum ultricies. Aenean sit amet turpis a turpis tempor cursus et ut est. Integer auctor magna in ligula interdum, nec cursus est scelerisque.</p>
+            <p>Vestibulum consectetur velit vel ante bibendum interdum. Praesent a lacus lacinia, sollicitudin libero id, malesuada libero. Mauris gravida felis id ex congue, et malesuada libero cursus.</p>
+            <p>Donec malesuada felis vel est egestas varius. Duis convallis risus ut mauris tincidunt, ac cursus magna dictum. Phasellus euismod massa at augue volutpat, eget fringilla est venenatis.</p>
+        </section>
 
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat interdum malesuada. Donec varius vehicula sapien, ut fermentum felis scelerisque non.</p>
+            <p>Curabitur vulputate, ligula a cursus gravida, odio ex blandit felis, et imperdiet eros leo eget justo. Cras auctor magna vel leo ultrices, ut auctor felis vehicula.</p>
+            <p>Pellentesque at lacus non ipsum fermentum ultricies. Aenean sit amet turpis a turpis tempor cursus et ut est. Integer auctor magna in ligula interdum, nec cursus est scelerisque.</p>
+            <p>Vestibulum consectetur velit vel ante bibendum interdum. Praesent a lacus lacinia, sollicitudin libero id, malesuada libero. Mauris gravida felis id ex congue, et malesuada libero cursus.</p>
+            <p>Donec malesuada felis vel est egestas varius. Duis convallis risus ut mauris tincidunt, ac cursus magna dictum. Phasellus euismod massa at augue volutpat, eget fringilla est venenatis.</p>
+        </section>
+        
     </main>
     <footer>
         <p>&copy; 2024 Matthew Hudson. All rights reserved.</p>
         <p><a href="https://github.com/matthew41305" target="_matthew41305/">Personal GitHub Profile</a></p>
     </footer>
-
 </body>
 </html>
