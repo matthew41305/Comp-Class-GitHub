@@ -14,14 +14,46 @@
                 <li><a href="Forms">Forms</a></li>
                 <li><a href="Media">Media</a></li>
             </ul>
-            <h1></h1>
+            <h1>Media tester page</h1>
         </nav>
     </header>
     <main>
+        <!-- Beginning of the audio selection-->
+         <section id="audioSample">
+            <!--Heading for the audio selection-->
+            <h2> Audio with controls</h2>
 
+            <!-- The 'controls' attribute adds audio controls, like play, pause, and volume -->
+             <audio controls>
+                <!-- The source for audio file-->
+                 <!--The 'src' attribute specifies the path to audio file -->
+                 <source src="media/welcome.mp3" type="audio/mp4">
+                 <!-- Fall back content in case the video isn't supported -->
+                  Your browser does not support the element.
+             </audio>
+         </section>
+         <!-- End of the audio selection-->
+          <hr>
+
+          <!--Beginning of the video section-->
+        <section id="VideoSample">
+            <!-- heading for the video section-->
+             <h2>Video with control</h2>
+
+             <!-- The 'controls' attribute adds video controls, like play, pause, and volume -->
+              <video width="320" height="240" controls>
+                <!-- Source for the video files -->
+                 <!-- The 'src' attribute specifies the path to the video file -->
+                  <source src="media/sampson.mp4" type="video/mp4">
+                  <!-- Fallback content incase the video isn't supported -->
+                    Your browser does not support the video element.
+              </video>
+        </section>
+        <!--end of the video section-->
     </main>
     <footer>
-
-    </footer>
+        <p>&copy; 2024 Matthew Hudson. All rights reserved.</p>
+        <p><a href="https://github.com/matthew41305" target="_matthew41305/">Personal GitHub Profile</a></p>
+     </footer>
 </body>
 </html>
